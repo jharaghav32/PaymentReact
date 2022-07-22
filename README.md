@@ -10,7 +10,7 @@ Now, In the project directory, you can run:
 
 ### `npm start` to run the frontend part
 
-Then change to  new terminal and you can run:
+Then change to  new terminal and in the backend directory  and you can run:
 ### `nodemon index.js` to run the backend part
 
 
