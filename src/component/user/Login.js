@@ -25,7 +25,7 @@ export const Login = (props) => {
       // save the auth token and redirect
       localStorage.setItem('token', json.token);//localStorage is a property that allows JavaScript sites and apps to save key-value pairs in a web browser with no expiration date.
       history("/");
-      props.showAlert("You are logged in Successfully", "success")
+      
     }
 
     console.log(json)
