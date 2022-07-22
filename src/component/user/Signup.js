@@ -9,7 +9,7 @@ export const Signup = (props) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault(); // to stop relaoding page
-    const response = await fetch("http://localhost:5000/api/auth/login", {
+    const response = await fetch("http://localhost:5000/api/auth/signup", {
       method: 'POST',
 
       headers: {
@@ -19,12 +19,12 @@ export const Signup = (props) => {
       body: JSON.stringify({ name: state.name, email: state.email, password: state.password })
     });
     const json = await response.json();
-    if (json.success) {
+    
       // save the auth token and redirect
       localStorage.setItem('token', json.token);//localStorage is a property that allows JavaScript sites and apps to save key-value pairs in a web browser with no expiration date.
       history("/");
       
-    }
+    
     
     console.log(json)
   }
