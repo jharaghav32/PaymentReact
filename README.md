@@ -3,10 +3,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+Install the required dependencies to run the application:
+### run `npm install` in project directory
 
-In the project directory, you can run:
+Now, In the project directory, you can run:
 
-### `npm start`
+### `npm start` to run the frontend part
+
+Then change to  new terminal and you can run:
+### `nodemon index.js` to run the backend part
+
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
