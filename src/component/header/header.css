@@ -1,0 +1,29 @@
+.icon {
+    display: inline;
+    float: right;
+}
+
+.text {
+    float: left;
+}
+
+.shop,
+.cart {
+    border: 1px solid green;
+    border-radius: 23px;
+    padding: 10px;
+    margin: 0 1.5rem 0 5rem;
+
+}
+
+.line {
+    width: 70px;
+    background-color: red;
+    border-bottom: 1px solid black;
+}
+
+.cart {
+    background-color: rgb(125, 208, 168);
+
+
+}

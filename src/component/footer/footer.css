@@ -1,0 +1,24 @@
+.btn {
+    margin-right: 2rem;
+}
+
+.payment {
+    border-radius: 17px;
+    background-color: rgb(125, 208, 168);
+    color: white;
+}
+
+.payment:hover {
+    border-radius: 17px;
+    background-color: rgb(125, 208, 168);
+    color: white;
+}
+
+.shopping {
+    border: 1px solid black;
+    border-radius: 17px;
+}
+
+.fa-arrow-left-long {
+    margin: 1rem;
+}
